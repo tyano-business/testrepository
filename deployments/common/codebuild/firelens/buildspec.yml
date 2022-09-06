@@ -1,1 +1,20 @@
+version: 0.2
 
+phases:
+  install:
+    runtime-versions:
+      java: corretto11
+    commands:
+      - echo start
+  pre_build:
+    commands:
+      - echo start
+  build:
+    commands:
+      - echo start
+  post_build:
+    commands:
+      - echo start
+artifacts:
+  files:
+    - imageDetail.json
